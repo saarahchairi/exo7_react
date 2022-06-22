@@ -1,0 +1,19 @@
+.article{
+    display: flex;
+}
+.titre{
+    background-color: #EEEFEF;
+    width: 100px;
+}
+h2{
+    color: #CEFDBB;
+}
+.para{
+    color: white;
+}
+img{
+    height: 300px;
+}
+.texte, .photo{
+    padding: 50px 150px;
+}

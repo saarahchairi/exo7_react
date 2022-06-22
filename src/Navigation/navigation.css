@@ -1,0 +1,13 @@
+nav {
+    border-bottom: 3px solid #B2FBA5;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.link {
+    margin: 10px;
+    background-color: transparent;
+    color: white;
+    border-color: #B2FBA5;
+}
