@@ -3,13 +3,16 @@ import "./navigation.css"
 import SearchBar from "../SearchBar/SearchBar";
 
 class Navigation extends React.Component{
+    clickAction = (x) => {
+        console.log(x);
+    }
     render(){
         return(
             <nav>
                 <div>
-                <button class="link" type="submit">Link 1</button>
-                <button class="link" type="submit">Link 2</button>
-                <button class="link" type="submit">Link 3</button>
+                <button onClick={() => this.clickAction("Acceuil")} class="link" type="submit">Link 1</button>
+                <button onMouseOver={() => this.clickAction("Galerie")} class="link" type="submit">Link 2</button>
+                <button onDoubleClick={() => this.clickAction("Contact")} class="link" type="submit">Link 3</button>
                 </div>
                 <div>
                     <SearchBar />
