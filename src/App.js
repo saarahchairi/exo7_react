@@ -1,17 +1,13 @@
-import React, { Component } from "react";
-import Header from "./Header/Header";
-import Article from "./Article/Article";
-import Footer from "./Footer/Footer";
+import React from "react";
 import "./app.css"
+import Main from "./Main/Main";
 
-class App extends Component{
+class App extends React.Component{
   render(){
     return(
-      <body>
-        <Header />
-        <Article />
-        <Footer />
-      </body>
+      <div>
+        <Main />
+      </div>
     );
   }
 }
