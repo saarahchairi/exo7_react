@@ -1,10 +1,6 @@
 .article{
     display: flex;
 }
-.titre{
-    background-color: #EEEFEF;
-    width: 100px;
-}
 h2{
     color: #CEFDBB;
 }

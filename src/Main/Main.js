@@ -15,7 +15,8 @@ class Main extends React.Component{
                 {
                     this.nombreArticles >= 2 && 
                         <div>
-                            <Article />
+                            <Article titre="Les tartines"/>
+                            <Article titre="Coding School"/>
                         </div>
                 }
                 {
