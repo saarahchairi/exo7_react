@@ -7,6 +7,9 @@ import Footer from "../Footer/Footer"
 
 class Main extends React.Component{
     nombreArticles = 2;
+    nbrArticles = (nbrArts) => {
+        console.log(nbrArts);
+    }
     render(){
         return(
             <section>
@@ -15,8 +18,8 @@ class Main extends React.Component{
                 {
                     this.nombreArticles >= 2 && 
                         <div>
-                            <Article titre="Les tartines"/>
-                            <Article titre="Coding School"/>
+                            <Article compte={(x) => this.nbrArticles(x)} titre="Les tartines"/>
+                            <Article compte={(x) => this.nbrArticles(x)} titre="Coding School"/>
                         </div>
                 }
                 {
